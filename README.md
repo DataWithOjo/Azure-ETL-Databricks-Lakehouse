@@ -2,6 +2,8 @@
 
 This project implements a full end-to-end data engineering pipeline using **Azure Databricks**, **Apache Spark**, and **Medallion Architecture (Bronze, Silver, Gold)**. It ingests raw data stored in Azure Data Lake Storage (ADLS Gen2), processes it incrementally using Spark, and delivers cleaned, analytics-ready datasets in the Gold layer.
 
+![Data Warehouse Architecture](./docs/Azure_Databricks_Lakehouse_Architecture.png)
+
 ## 🗂 Project Structure
 
 - **Source Format**: Parquet files
